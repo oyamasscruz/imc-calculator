@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 960px;
+    width: 100%;
+}
+
+:root {
+    --background: #95a5a6;
+    --textColor: #fff;
+    --corSecundaria: rgba(0,0,0,.1);
+}

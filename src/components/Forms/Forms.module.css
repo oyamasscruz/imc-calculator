@@ -1,0 +1,44 @@
+.container {
+    background-color:var(--background);
+    border-radius: 10px;
+    margin: 0 100px;
+    gap: 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: var(--textColor);
+}
+
+.forms {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    padding: 20px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--textColor);
+}
+
+.button {
+    padding: 20px;
+    &:hover {
+        background-color: var(--corSecundaria);
+        color: var(--textColor);
+    }
+}
+
+.normal, .excesso, .obesidade, .superObesidade {
+    background-color: var(--corSecundaria);
+    padding: 10px;
+    color: var(--textColor);
+    font-weight: bold;
+    font-size: 20px;
+}
